@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+header {
+    /* width: 100%; */
+    background-color: #333;
+    padding: 19px 0;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    margin-right: 41px;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 33px;
+}
+
+/* --------------- */
+
+nav {
+    background-color: #F8F3F4;
+    padding-top: 30px;
+    height: 60px;
+}
+
+.nav__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left {
+    font-size: 23px;
+}
+
+.nav_decor {
+    color: lightpink;
+}
+
+/* ---------------- */
+
+main {
+    padding-top: 40px;
+}
+
+details > summary {
+    list-style: none;
+}
+
+.filter {
+    width: 360px;
+    background-color: none;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.filter[open] {
+    padding-left: 10px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter[open]>summary {
+    color: lightpink;
+    outline: none;
+    border: none;
+}
+
+.filter-content {
+    position: absolute;
+    background-color: white;
+    /* color: lightpink; */
+    width: 360px;
+    left: 0;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter-title {
+    padding-top: 10px;
+}
+
+summary {
+    color: lightpink;
+    border-left: 5px solid lightpink;
+    padding-left: 5px;
+}
+
+.filter-text {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.main-summary {
+    color: black;
+    border-left: none;
+}
+
+.main_nav {
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.left-summary {
+    border-left: none;
+    color: black;
+    font-size: 15px;
+}
+
+.parametrs:not(:first-child) {
+    padding-left: 40px;
+}
+
+.sizes {
+    position: absolute;
+}
+
+/* -------------- */
+
+
+.main-cards {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 553px;
+    /* background-color: violet; */
+}
+
+.card {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.card h5 {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.card p {
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 347px;
+    opacity: 0.4;
+}
+
+.card h4 {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+/* ---------------- */
+
+.main-black {
+    margin-top: 40px;
+    height: 341px;
+    background-color: #222224;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.block {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+    width: 360px;
+    /* background-color: white; */
+}
+
+.block h3 {
+    padding: 10px 0;
+    color: white;
+}
+
+.block p {
+    color: white;
+    opacity: 0.4;
+}
+
+.block:not(:last-child) {
+    padding-right: 20px;
+}
+
+/* ------------ */
+
+.subscribe {
+    height: 600px;
+    background-image: url(../../index/img/back.png);
+    color: lightgrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscribe-blocks {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.subscribe-title {
+    text-align: center;
+    color: black;
+}
+
+.subscribe-left {
+    padding-right: 400px;
+}
+
+.subscribe-left img {
+    padding-left: 80px;
+    justify-content: center;
+}
+
+.subscribe-left p {
+    padding-top: 10px;
+    width: 261px;
+    text-align: center;
+    color: white;
+}
+
+.subscribe-right p {
+    width: 377px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.inputs {
+    display: flex;
+}
+
+.email-input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    background: lightgrey;
+    border-radius: 40px 0 0 40px;
+}
+
+.email-button {
+    height: 40px;
+    border: none;
+    background: lightpink;
+    width: 100px;
+    border-radius: 0 40px 40px 0;
+    /* color: white; */
+}
+
+/* ----------- */
+
+footer {
+    height: 100px;
+    background-color: #222224;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.footer-wrapper {
+    color: white;
+    font-size: 17px;
+}
